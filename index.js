@@ -6,7 +6,7 @@ var server = http.createServer(function(request, response) {
     response.writeHead(200, {"Content-Type": "text/plain"});
     response.end("Hello Azure to Johnny's world~~~~!");
     //response.end();
-    //response.end("Hello Azure to Johnny's world~~~~!");
+    //response.end("Hello Azure to Johnny's world~~~~2nd version!");
 
 });
 
